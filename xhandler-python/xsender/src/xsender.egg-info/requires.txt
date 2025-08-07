@@ -1,0 +1,8 @@
+requests
+zeep
+
+[dev]
+pytest
+mypy
+black
+pytest-mock

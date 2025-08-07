@@ -1,0 +1,9 @@
+xbuilder@ file:///app/xhandler-python/xbuilder
+xsigner@ file:///app/xhandler-python/xsigner
+xsender@ file:///app/xhandler-python/xsender
+
+[dev]
+pytest
+mypy
+black
+pytest-mock

@@ -1,0 +1,7 @@
+xmlsec
+lxml
+
+[dev]
+pytest
+mypy
+black

@@ -1,0 +1,25 @@
+[project]
+name = "xsigner"
+version = "0.1.0"
+description = "A Python library to sign UBL XML files."
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.8"
+dependencies = [
+    "xmlsec",
+    "lxml",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "mypy",
+    "black",
+]
+
+[tool.mypy]
+mypy_path = "src"
+strict = true
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
