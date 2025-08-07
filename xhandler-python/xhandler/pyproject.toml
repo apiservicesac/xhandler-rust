@@ -5,11 +5,10 @@ description = "A Python library that orchestrates the xbuilder, xsigner, and xse
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.8"
 dependencies = [
-    "xbuilder @ file:///app/xhandler-python/xbuilder",
-    "xsigner @ file:///app/xhandler-python/xsigner",
-    "xsender @ file:///app/xhandler-python/xsender",
+    "xbuilder @ file:///opt/backup/lab/dooservice/xhandler-python/xbuilder",
+    "xsigner @ file:///opt/backup/lab/dooservice/xhandler-python/xsigner",
+    "xsender @ file:///opt/backup/lab/dooservice/xhandler-python/xsender",
 ]
-
 [project.optional-dependencies]
 dev = [
     "pytest",
