@@ -1,9 +1,0 @@
-name: Install XHandler dependencies
-description: Install XHandler dependencies.
-runs:
-  using: "composite"
-  steps:
-    - name: Install dependencies
-      shell: bash
-      run: |
-        sudo apt-get -y install pkg-config libssl-dev libxml2-dev libclang-dev
